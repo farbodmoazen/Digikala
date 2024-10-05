@@ -1,0 +1,201 @@
+.@import url'./colors.css';
+.product-logo{
+    font-weight:bolder;
+}
+.product-img{
+    max-width:300px;
+    max-height:300px;
+}
+ .product-card{
+        border-left:1px solid var(--secondary-color);
+        padding:0 2rem;
+    } 
+    .product-card:last-child{
+        border-left:0;
+    }
+    .product-item{
+        padding:10px;
+    }
+    .product-item:nth-child(3), .product-item:nth-child(4){
+        border-top:1px solid var(--secondary-color);
+        /*border-bottom:1px solid var(--secondary-color);*/
+    }
+    .product-item:nth-child(odd){
+        border-left:1px solid var(--secondary-color);
+    }
+    .product-logo{
+        font-weight:700;
+        font-size:1.6rem;
+    }
+.your-taste{
+    font-size:10px;
+    font-weight:400;
+    color:rgba(191, 191, 191, 1);;
+}
+.spinner-icon img{
+    width:20px;
+    height:20px;
+}
+.see{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--blue-link-color);
+    vertical-align:center;
+    padding:0.6rem 0;
+}
+.see span{
+    padding-left:4px;
+}
+.club-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    background-color:var(--white-color);
+    padding:0;
+    height:122px;
+    width:122px;
+    overflow:hidden;
+} 
+.club-item:first-child{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.club-item:last-child{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.club{
+        background-color:var(--blue-club-color);
+    padding:2rem 4rem;
+}
+.club-cards{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    gap:3px;
+}
+.club-logo img{
+    width:119px;
+    height:33px;
+    
+}
+.club-header{
+    font-size:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:50%;
+}
+.club-body{
+    height:50%;
+}
+.club-body img{
+    width:100%;
+    border-radius:inherit;
+}
+/*most*/
+.mostsell-icon img{
+    height:20px;
+    width:20px;
+}
+.most-img-slide img{
+    height:86px;
+    width: 86px;
+}
+.blue-number{
+    color:var(--blue-link-color);
+    font-size:2.2rem;
+    font-weight:800;
+    margin-left:12px;
+}
+.most-text{
+    font-size:1.1rem;
+    font-weight:400;
+    width:160px;
+    white-space:wrap;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.most-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.most-slide a{
+    display:flex;
+}
+.most-slide a:hover{
+    color:var(--black-color);
+    cursor:pointer;
+}
+.most-info{
+    border-bottom:1px solid var(--secondary-color);
+}
+.most-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:1.2rem 0;
+}
+.see:hover,see:focus{
+    color:var(--blue-link-color);
+}
+.see-all a{
+    color:var(--blue-link-color);
+}
+@media screen and (min-width:768px){
+    .swiper-most  .swiper-button-next {
+        right:auto;
+    }
+    .swiper-most .swiper-button-prev {
+    right: 5px;
+}
+@media screen and (min-width:1024px){
+    .products{
+        border:1px solid var(--secondary-color);
+        margin:20px auto !important;
+        border-radius:15px;
+    }
+    .productcard-row{
+        padding:2rem;
+    }
+    .club{
+        display:flex;
+        align-items:center;
+        justify-content:flex-end;
+        border-radius:15px;
+    }
+    .club-logo{
+        margin-left:auto;
+    }
+    .club-cards{
+        justify-content:flex-end;
+    }
+    .club-item{
+        flex-direction:row;
+        justify-content:space-between;
+        height:60px;
+         width:200px;
+    }
+    .club-header{
+        flex-direction:row;
+    }
+    .club-body{
+        height:100%;
+    }
+    .most-logo{
+    margin:0 auto;
+    font-size:2rem;
+}
+    .blue-number{
+    font-size:3.5rem;
+}
+.most-text{
+    font-weight:600;
+}
+}

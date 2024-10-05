@@ -1,0 +1,70 @@
+@import url(./colors.css);
+.category{
+    height:145px;
+    width:90px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:0 1.2rem;
+}
+.category img{
+    width:90px;
+    height:90px;
+}
+.category a{
+    margin-top:8px;
+    font-size:10px;
+    line-height:2.17;
+    font-weight:400;
+}
+/*best brand*/
+.best-brand h4{
+    text-align:center;
+}
+.brand-img{
+    width: 70px;
+    height:70px;
+}
+.best-brand .swiper .swiper-wrapper .swiper-slide{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-left:1px solid var(--secondary-color);
+    padding:4px 16px;
+}
+.best-brand .swiper .swiper-wrapper .swiper-slide:last-child{
+    border:none;
+}
+.brand-icon{
+    width: 32px;
+    height:32px;
+}
+@media screen and (min-width:768px){
+    .best-brand{
+        border:1px solid var(--secondary-color);
+        padding-bottom:30px;
+        border-radius:15px;
+        margin:35px 15px;
+    }
+    .swiper-brand  .swiper-button-next {
+        right:auto;
+    }
+    .swiper-brand .swiper-button-prev {
+    right: 5px;
+}
+.best-brand .swiper .swiper-wrapper .swiper-slide{
+    padding:0;
+}.brand-img{
+    width: 110px;
+    height:110px;
+}
+}
+@media screen and (min-width:1024px){
+    .category{
+      margin:0 auto;
+    }
+    .category-desktop{
+     grid-template-columns: repeat(8, 1fr);
+    }
+}

@@ -1,0 +1,356 @@
+.widget-slide a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    color:var(--black-color);
+    white-space:wrap;
+}
+.widget-slide a span{
+    font-size:10px;
+    font-weight:400;
+}
+.widget-info {
+    width:45px;
+}
+.swiper-slide.widget-slide{
+        width:75px   !important;
+        height:99.4px!important;
+}
+.widget-img{
+    height:52px;
+    width:52px;
+}
+.widgets{
+    margin:1.2rem 0;
+}
+.widgets .swiper-scrollbar{
+    width:19.5px !important;
+    left:50% !important;
+}
+.widgets .swiper-scrollbar-drag{
+    width:12px!important;
+    background-color:var(--black-color);
+}
+.widget-slide .more{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background-color:var(--grey-color);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.dots{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:22px;
+}
+.dot{
+    border:1px solid transparent;
+    border-radius:50%;
+    background-color:var(--dot-color);
+    height:4px;
+    width: 4px;
+}
+
+/*shegeft*/
+.shegeft{
+    display:flex;
+    flex-direction:column;
+    background-color:var(--grey-color);
+    justify-content:center;
+    padding:0.9rem 0.6rem;
+    gap:2rem;
+}
+.shegeft-info img:first-child{
+    width:40px;
+    height:32px;
+}
+.shegeft-info img:nth-child(2){
+    width:190px;
+}
+.shegeft-images a img{
+    width: 48px;
+    height:48px;
+}
+.sheg-products{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.shegeft-images{
+    display:flex;
+}
+.sheg-product  {
+    position:relative;
+    height:68px;
+    width: 68px;
+    border-radius:50%;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--white-color);
+    margin-left:1.2rem;
+}
+.shegeft-info{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+.shegeft-images a span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color:var(--red-color);
+    text-align:center;
+    width:34px;
+    height:20px;
+    border-radius:12px;
+    color:var(--white-color);
+    font-size:12px;
+}
+.shegeft-discount{
+    color:#fff;
+    background-color:var(--green-color);
+    width:120px;
+    height:28px;
+    padding:0.4rem 0;
+    border-radius:15px;
+    text-align:center;
+}
+.more-product{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--green-color);
+    background-color:var(--white-color);
+    border-radius:50%;
+    width:44px;
+    height:44px;
+    font-size:1.3em;
+}
+.more-product:hover{
+    color:var(--green-color);
+    cursor:pointer;
+}
+.more-product span{
+    display:none;
+}
+.more-product a i{
+     color:var(--green-color);
+    background-color:var(--white-color);
+}
+.diss-advertises{
+    margin:4rem 0;
+}
+.diss-advertises a{
+    padding:0.4rem 0.8rem !important;
+}
+#suggestion{
+    background-color:var(--btn-red-color);
+    padding:20px;
+}
+.sugg-images img:first-child{
+    width:24px;
+    height:24px;
+}
+.sugg-images img:last-child{
+    width:108px;
+    height:20px;
+}
+.sugg-slide{
+    background-color:var(--white-color);
+    width:130px;
+    padding:5px 10px;
+    height:auto;
+    position:relative;
+    margin-left:3px;
+    overflow:hidden;
+}
+.swiper-slide.sugg-slide{
+    max-width:130px;
+    width:130px;
+    min-width:130px;
+}
+.sugg-slide:nth-child(2){
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.sugg-slide:last-child{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.sugg-description{
+    font-size: 12px;
+    color: var(--input-color);
+    font-weight: 600;
+    text-align:center;
+}
+.sugg-see .see{
+    color:var(--white-color);
+    display:block;
+}
+.sugg-see .see:hover{
+    color:var(--white-color);
+}
+.sugg-disscount{
+    position:absolute;
+    bottom:46%;
+    left:10px;
+    background-color:var(--red-color);
+    color:var(--white-color);
+    font-size:12px;
+    width:34px;
+    height:20px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.sugg-header{
+}
+.sugg-price{
+  margin-right:auto;
+    font-size:11px;
+}
+.countdown {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    direction:ltr;
+    justify-content:center;
+    align-items:center;
+    color:var(--white-color);
+}
+.sugg-header {
+    align-items: center;
+    padding: 10px 0;
+}
+.time {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-weight:700;
+    border-radius: 5px;
+    width: 26px;
+    height:26px;
+    text-align: center;
+    margin: 0 5px;
+}
+.sugg-slide:first-child{
+    background-color:var(--btn-red-color);
+}
+ .sugg-slide img:first-child{
+    width: 88px;
+    height:88px;
+}
+.sugg-slide img:last-child{
+    width:108px;
+    height:20px;
+}
+.sugg-slide-img{
+    width:114px;
+    height:114px;
+}
+.more-sugg{
+    color:var(--black-color);
+}
+.more-icon{
+    color:var(--blue-link-color);
+    border:2px solid var(--blue-link-color);
+    font-size:2rem;
+    padding:20px;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+.more-sugg:hover{
+    cursor:pointer;
+}
+
+@media screen and (min-width:768px){
+    
+    #swiper-suggestion .swiper-button-next {
+        right:auto;
+    }
+    #swiper-suggestion .swiper-button-prev {
+    right: 5px;
+}
+}
+@media screen and (min-width:1024px){
+    .sugg-slide-img{
+        width:160px;
+        height:160px;
+}
+    #suggestion{
+        border-radius:15px;
+    }
+    .sugg-see .see {
+    text-align: center;
+    font-size:16px;
+}
+    .sugg-slide{
+    width:160px;
+    padding:5px 20px;
+}
+.swiper-slide.sugg-slide{
+    max-width:160px;
+    width:160px;
+    min-width:160px;
+}
+.sugg-disscount{
+    position:absolute;
+    bottom:20px;
+    right:10px;
+}
+    .widgets .swiper-wrapper{
+        justify-content:center;
+    }
+    .widget-slide{
+        margin:1.4rem 3rem;
+    }
+    .widget-slide a span{
+                font-weight:700;
+    }
+    .shegeft{
+        flex-direction:row;
+        justify-content:space-between;
+        margin:2rem 0;
+    }
+    .shegeft-info{
+        flex-direction:row;
+        align-items:center;
+    }
+    .shegeft-info img:first-child{
+    width:62px;
+    height:62px;
+}
+.shegeft-info img:nth-child(2){
+    width:250px;
+}
+.shegeft-discount{
+    margin:0 1.2rem;
+}
+.shegeft-images a img{
+    width: 58px;
+    height:58px;
+}
+.sheg-product  {
+    height:84px;
+    width: 84px;
+}
+.more-product{
+    border-radius:20px;
+    width: 120px;
+    height:44px;
+    font-size:10px;
+    padding:12px 20px;
+    white-space:nowrap;
+}
+.more-product span{
+    display:block;
+    margin-left:8px;
+}
+}

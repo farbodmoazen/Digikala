@@ -1,0 +1,191 @@
+.player-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    display:none;
+    z-index:100000000000000;
+}
+video {
+  pointer-events: none;
+}
+.video-swiper-btn{
+    position: absolute;
+    bottom: 44%;
+    width: 360px;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    height: 100px
+}
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:var(--white-color);
+  background-color:#333;
+  width:100%;
+  height:100%;
+  max-width:1000px;
+}
+.swiper-slide.video-slide{
+    width:100%;
+  height:100%;
+  align-items:center;
+}
+.video-container video {
+  display: block;
+  object-fit:cover;
+  width: 100%;
+  max-width:470px;
+  height: 720px
+}
+
+.video-header, .video-body,.video-footer, .custom-controls {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.video-header {
+  top: 10px;
+  padding: 18px;
+  color: white; /* Text color */
+}
+
+.video-body {
+  bottom: 120px;
+  padding: 10px;
+  color: white; /* Text color */
+  align-items:flex-end;
+}
+.video-footer{
+    bottom: 20px;
+}
+.custom-controls {
+  bottom: 90px; /* Position just above the footer */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white; /* Text color */
+}
+
+/* Custom Controls */
+.currentTime {
+  margin-right: 10px;
+}
+
+.progressBar {
+  direction: ltr;
+  -webkit-appearance: none; /* WebKit browsers */
+  appearance: none; /* Remove default browser styling */
+  height: 6px;
+  background-color: var(--secondary-color);
+  outline: none;
+  width: 80%;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.close-video-btn:hover{
+    cursor:pointer;
+}
+/* WebKit (Safari, Chrome) styles */
+.progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Firefox styles */
+.progressBar::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Edge/IE styles */
+.progressBar::-ms-thumb {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+.profile-info > * {
+    margin-left: 5px;
+}
+.profile-info i{
+    font-size:2rem;
+}
+.like-comment a{
+     margin-top:10px;
+}
+.like-comment i{
+    font-size:2rem;
+    color:var(--white-color);
+}
+.like-comment a span{
+    font-size:1.4rem;
+    color:var(--white-color);
+}
+.like-comment a:hover{
+     color:var(--white-color);
+     cursor:pointer;
+}
+.video-swiper-btn{
+ display:none;
+}
+.videofooter-slide{;
+    max-width:240px;
+    height: 65px;
+    overflow:hidden;
+    background-color: var(--white-color);
+    color:var(--black-color);
+    font-weight:400;
+    border-radius:15px;
+    margin:0.8rem;
+    font-size:10px;
+    z-index:300;
+}
+.videofooter-img{
+    height: 60px;
+    width: 60px;
+    border-radius:inherit;
+}
+@media screen and (min-width:1024px){
+.video-container {
+  width:360px;
+  height:720px;
+}
+.video-swiper-btn{
+    position: absolute;
+    bottom: 44%;
+    width: 360px;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    height: 100px
+}
+#playerContainer .swiper-button-prev{
+    right:-290px;
+}
+#playerContainer .swiper-button-next {
+    right: 250px;
+}
+}

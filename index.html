@@ -1,0 +1,2544 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap RTL -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.rtl.min.css">
+
+    <!-- Font Awesome Latest Version -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- swipper -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/widget.css">
+    <link rel="stylesheet" href="./css/category.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/selected.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="stylesheet" href="./css/player.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <title>فروشگاه اینترنتی دیجیکالا</title>
+    <link rel="icon" type="image/x-icon" href="./images/dg-icon.webp">
+</head>
+<body>
+<div class="main-header">
+  <!-- head advertise -->  <img class="adv col-xs-12 p-0 d-none d-lg-block" src="./images/head-adv.gif" alt="Advertisement">
+<!-- start search -->
+<div class="col-xs-12 search">
+  <div class="col-md-2">
+    <img src="./images/dg-icon.svg" class="d-lg-block d-none w-full desktop-dg-icon px-2"/>
+  </div>
+  <div class="search-wrapper col-md-9">
+    <input class="form-control" type="search">
+    <i class="fas fa-search search-i"></i>
+    <div class="search-info">
+      <span id="search-ph">جستجو در</span>
+      <img class="d-lg-none" src="./images/digi-search.svg" alt="Search">
+    </div>
+  </div>
+  <div class="d-lg-flex d-none btn-sign-in">
+    <button class="btn btn-light-secondary d-flex align-center">
+      <i class="fa fa-sign-in"></i>
+      <span class="px-1" style="border-left:1px solid black">ورود</span>
+      <span class="px-1">ثبت نام</span>
+    </button>
+    <span class="shopping-cart"><img src="./images/shopping.jpg"/></span>
+  </div>
+</div>
+<!-- end search -->
+</div>
+
+                 <!--start menu desktop -->
+    <div id="desktopMenu" class="desktop-menu col-xs-12 d-lg-flex d-none ">
+        <div id="openCategory" class="desktop-item dsk-active ">
+            <span><i class="fa fa-bars"></i></span>
+            <span>دسته بندی کالاها</span>
+        </div>
+        <div class="desktop-item  ">
+            <span class="border-right"><i class="fa fa-percent border-rounded"></i></span>
+            <span>شگفت انگیزها</span>
+        </div>
+        <div class="desktop-item  ">
+            <span><i class="fa fa-percent border-rounded"></i></span>
+            <span>شگفت انگیزها</span>
+        </div>
+        <div class="desktop-item  ">
+            <span><i class="fa fa-percent border-rounded"></i></span>
+            <span>شگفت انگیزها</span>
+        </div>
+        <div class="desktop-item  ">
+            <span><i class="fa fa-percent border-rounded"></i></span>
+            <span>شگفت انگیزها</span>
+        </div>
+        <div class="desktop-item  ">
+            <span><i class="fa fa-percent border-rounded"></i></span>
+            <span>شگفت انگیزها</span>
+        </div>
+    </div>
+    <!--categories-->
+    <div  id="Category" class=" row">
+                    <aside class="col-xs-3 " id="catAside">
+                    <ul class="d-flex flex-column">
+                        <li id="books" class="aside-item choosen d-flex ">
+                            <i class="fa fa-pen-ruler"></i>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </li>
+                        <li id="mobiles" class="aside-item  d-flex ">
+                            <i class="fa fa-phone"></i>
+                            <span>موبایل</span>
+                        </li>
+                        
+                    </ul>
+                </aside>
+                <section class="col-xs-9 px-lg-2" id="catSection ">
+                    <div  class="sec-header d-flex align-center">
+                        <span id="secHeader">کتاب و لوازم تحریر</span>
+                        <i class="fa fa-angle-left px-2 "></i>
+                    </div>
+                    <ul>
+                        <li id="bookProduct" class="section-item">
+                            <span class="d-flex space-between align-center space-between-lg-none">
+                                <span class="" id="productTitle">کتاب و مجله</span>
+                                <i id="bookAngle" class="fa fa-angle-down d-lg-none"></i>
+                                <i  class="fa fa-angle-left px-2 d-none d-lg-block"></i>
+                            </span>
+                            <ul id="bookList" class="space-between px-2 item-list">
+                            <li class="d-flex flex-column">
+                                <figure class="d-flex align-center justify-center d-lg-none">
+                                    <img src="./images/book.jpg"/>
+                                </figure>
+                                <span>کتاب چاپی</span>
+                            </li>
+                            <li class="d-flex flex-column">
+                                <figure class="d-flex align-center justify-center d-lg-none">
+                                    <img src="./images/book.jpg"/>
+                                </figure>
+                                <span>کتاب چاپی</span>
+                            </li>
+                            <li class="d-flex flex-column">
+                                <figure class="d-flex align-center justify-center d-lg-none">
+                                    <img src="./images/book.jpg"/>
+                                </figure>
+                                <span>کتاب چاپی</span>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="section-item">
+                            <span class="d-flex space-between align-center space-between-lg-none">
+                                <span id="lastProduct">کتاب صوتی</span>
+                                <i  class="fa fa-angle-left px-2 d-none d-lg-block"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+                </div>
+                <!--end categories -->
+    <!--end menu desktop-->
+                <div class="d-flex menu-mobile d-lg-none"><!-- footer.css -->
+                        <a id="goHome" class="home menu-item d-flex align-center justify-center flex-column  active">
+                            <span class="mobile-icon"><i class="fa fa-house"></i></span>
+                            <span>خانه</span>
+                        </a>
+                        <a id="goCategory" class="home menu-item d-flex align-center justify-center flex-column">
+                            <span class="mobile-icon"><img class="w-full h-full" src="./images/categories.png"/></span>
+                            <span>دسته بندی</span>
+                        </a>
+                        <a class="home menu-item d-flex align-center justify-center flex-column notWork">
+                            <span class="mobile-icon"><i class="fa fa-shopping-cart"></i></span>
+                            <span>سبد خرید</span>
+                        </a>
+                        <a class="home menu-item d-flex align-center justify-center flex-column notWork">
+                            <span class="mobile-icon"><i class="fa fa-play"></i></span>
+                            <span>مگنت</span><!--  footer.css file-->
+                        </a>
+                        <a class="home menu-item d-flex align-center justify-center flex-column notWork">
+                            <span class="mobile-icon"><i class="fa fa-user"></i></span><!--  footer.css file-->
+                            <span>دیجی کالای من</span>
+                        </a>
+                    </div><!-- end mobile menu-->
+                    <div id="home">
+                <header id="headOfPage">
+            <div class="row first-head container-lg">
+                <!-- cssfile is header css -->
+                    <!-- start adv -->
+                    <!-- end adv -->
+                <!-- start story swipper --> <!-- cssfile is header css -->
+
+                    <div id="story-swiper" class="swiper col-xs-12 p-4  ">
+                        <div class="swiper-wrapper">
+                            <a  class="swiper-slide story" >
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a  class="swiper-slide story" >
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a  class="swiper-slide story" >
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story ">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a> <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                             <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                            
+                            <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                            <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                            <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                            <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                            <a href="" class="swiper-slide story">
+                                <div class="img-story">
+                                    <img src="./images/story/story1.webp">
+                                </div>
+                                <div class="hour">
+                                    14:00
+                                </div>
+                                <div class="story-desc">
+                                    مشاوره خرید کالای الکترونیک
+                                </div>
+                            </a>
+                        </div>
+                        <!--swiper buttons-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+            <!-- end story swipper -->
+                    </div>
+                </header>
+    <!-- end cssfile is header css -->
+    
+    <!-- video player for story-->
+        <div id="playerContainer" class="video-swiper swiper player-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide d-flex justify-center video-slide" >
+                  <div class="video-container ">
+                     <video class="customVideo" src="./video/video.mp4" autoplay muted loop playsinline></video> <!-- Autoplay and muted enabled -->
+                 
+                     <!-- Custom controls for timeline and current time -->
+                     <div class="custom-controls d-flex align-center space-between">
+                         <input  type="range" class="progressBar" value="0" min="0" max="100">
+                         <span class="currentTime">0:00</span>
+                     </div>
+                 
+                     <div class="video-header d-flex align-center space-between">
+                         <div class="profile-info d-flex align-center">
+                             <i class="fa fa-arrow-right close-video-btn"></i>
+                             <img class="profile" src="./images/story/story1.webp" alt="Profile">
+                             <span class="username">کاربر1</span>
+                         </div><!--end profile-info-->
+                         <button class="btn btn-light">دنبال کردن</button>
+                     </div>
+                 
+                     <div class="video-body d-flex space-between">
+                         <span class="video-desc">پایان اپل و سامسونگ</span>
+                         <div class="like-comment d-flex flex-column ">
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-heart-o"></i>
+                                 <span class="like-counter">10</span>
+                             </a>
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-comment-o" aria-hidden="true"></i>
+                                 <span class="like-counter">12</span>
+                            </a>
+                         </div>
+                         </div><!--end video body-->
+                         <div class="video-footer">
+                             <div class="swiper swiper-footer">
+                                 <div class="swiper-wrapper">
+                                     <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                       <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                 </div>
+                                  <!--end swiper wrapper-->
+                             </div>
+                             <!--end swipper-->
+                         </div>
+                         <!--end video footer-->
+                     
+                 </div><!--end video-container-->
+                          
+                </div><!--end swiper slide-->
+                <div class="swiper-slide d-flex justify-center video-slide" >
+                  <div class="video-container ">
+                     <video class="customVideo" src="./video/video.mp4" autoplay muted loop playsinline></video> <!-- Autoplay and muted enabled -->
+                 
+                     <!-- Custom controls for timeline and current time -->
+                     <div class="custom-controls d-flex align-center space-between">
+                         <input type="range" class="progressBar" value="0" min="0" max="100">
+                         <span class="currentTime">0:00</span>
+                     </div>
+                 
+                     <div class="video-header d-flex align-center space-between">
+                         <div class="profile-info d-flex align-center">
+                             <i class="fa fa-arrow-right close-video-btn"></i>
+                             <img class="profile" src="./images/story/story1.webp" alt="Profile">
+                             <span class="username">2کاربر</span>
+                         </div><!--end profile-info-->
+                         <button class="btn btn-light">دنبال کردن</button>
+                     </div>
+                 
+                     <div class="video-body d-flex space-between">
+                         <span class="video-desc">پایان اپل و سامسونگ</span>
+                         <div class="like-comment d-flex flex-column ">
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-heart-o"></i>
+                                 <span class="like-counter">10</span>
+                             </a>
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-comment-o" aria-hidden="true"></i>
+                                 <span class="like-counter">12</span>
+                            </a>
+                         </div>
+                         </div><!--end video body-->
+                         <div class="video-footer">
+                             <div class="swiper swiper-footer">
+                                 <div class="swiper-wrapper">
+                                     <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                       <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                 </div>
+                                  <!--end swiper wrapper-->
+                             </div>
+                             <!--end swipper-->
+                         </div>
+                         <!--end video footer-->
+                     
+                 </div><!--end video-container-->
+                          
+                </div><!--end swiper slide-->
+                <div class="swiper-slide d-flex justify-center video-slide" >
+                  <div class="video-container ">
+                     <video class="customVideo" src="./video/video.mp4" autoplay muted loop playsinline></video> <!-- Autoplay and muted enabled -->
+                 
+                     <!-- Custom controls for timeline and current time -->
+                     <div class="custom-controls d-flex align-center space-between">
+                         <input type="range" class="progressBar" value="0" min="0" max="100">
+                         <span class="currentTime">0:00</span>
+                     </div>
+                 
+                     <div class="video-header d-flex align-center space-between">
+                         <div class="profile-info d-flex align-center">
+                             <i class="fa fa-arrow-right close-video-btn"></i>
+                             <img class="profile" src="./images/story/story1.webp" alt="Profile">
+                             <span class="username">کاربر3</span>
+                         </div><!--end profile-info-->
+                         <button class="btn btn-light">دنبال کردن</button>
+                     </div>
+                 
+                     <div class="video-body d-flex space-between">
+                         <span class="video-desc">پایان اپل و سامسونگ</span>
+                         <div class="like-comment d-flex flex-column ">
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-heart-o"></i>
+                                 <span class="like-counter">10</span>
+                             </a>
+                             <a class="d-flex flex-column align-center">
+                                 <i class="far fa-comment-o" aria-hidden="true"></i>
+                                 <span class="like-counter">12</span>
+                            </a>
+                         </div>
+                         </div><!--end video body-->
+                         <div class="video-footer">
+                             <div class="swiper swiper-footer">
+                                 <div class="swiper-wrapper">
+                                     <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                       <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                        <div class="swiper-slide d-flex  align-center videofooter-slide">
+                                         <div>
+                                             <img class="videofooter-img" src="./images/videofooterimg.jpg">
+                                         </div>
+                                         <div class="d-flex flex-column  px-1">
+                                             <span>شاتر عکاسی اولانزا</span>
+                                             <span>مدل <span class="bold">capgrip</span></span>
+                                         </div>
+                                     </div>
+                                      <!--end swiper slide-->
+                                 </div>
+                                  <!--end swiper wrapper-->
+                             </div>
+                             <!--end swipper-->
+                         </div>
+                         <!--end video footer-->
+                     
+                 </div><!--end video-container-->
+                          
+                </div><!--end swiper slide-->
+            </div><!--end swiper wrapper-->
+            <div class="video-swiper-btn">
+            <div id="swiper-button-prev" class="swiper-button-prev"></div>
+            <div id="swiper-button-next" class="swiper-button-next"></div>
+            </div>
+        </div><!-- end video swiper-->
+    
+                     
+            <div class="row max-w-full">
+                <!-- cssfile is slider css -->
+    <!-- start slider swipper -->
+            <div id="slider-swiper" class="col-xs-12 swiper slider-swiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider.gif">
+                        <img src="./images/mobile-slider2.gif" class="slider-img d-sm-none"/></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider2.webp">
+                        <img src="./images/mobile-slider.jpg" class="slider-img d-sm-none"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider.gif">
+                        <img src="./images/mobile-slider2.gif" class="slider-img d-sm-none"/></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider2.webp">
+                        <img src="./images/mobile-slider.jpg" class="slider-img d-sm-none"/>
+                        </a>
+                    </div><!-- cssfile is slider css -->
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider.gif">
+                        <img src="./images/mobile-slider2.gif" class="slider-img d-sm-none"/></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a ><img class="slider-img d-none d-sm-block" src="./images/slider/slider2.webp">
+                        <img src="./images/mobile-slider.jpg" class="slider-img d-sm-none"/>
+                        </a>
+                    </div>
+                </div> <!--swiper wrapper -->
+                    <!-- cssfile is slider css -->
+                     <div class="swiper-btn-group">
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+            </div><!--swiper-->
+        </div><!-- end row -->
+            <!-- end slider swipper -->
+            <!-- suppermarket banner -->
+           <!-- cssfile is slider css -->
+                <div class="px-2">
+                 <a class="col-xs-12 p-0 my-2 d-lg-none " >
+                <img class=" suppermarket-banner w-100" src="./images/supermarket.png"/>
+            </a>
+                </div>
+            <!-- end suppermarket banner -->
+            <!-- end cssfile is slider css -->
+            <!--  cssfile is widget css -->
+            <!-- start widgets -->
+            <div id="widget-swiper" class="col-xs-12 swiper widgets  w-full">
+                <div class="swiper-wrapper"><!--  cssfile is widget css -->
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-square.png"/>
+                            <span class="widget-info">دیجی کالا جت</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-square.png"/>
+                            <span class="widget-info">دیجی کالا جت</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-square.png"/>
+                            <span class="widget-info">دیجی کالا جت</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a ><!--  cssfile is widget css -->
+                            <img class="widget-img" src="./images/widget-square.png"/>
+                            <span class="widget-info">دیجی کالا جت</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-circled.png"/>
+                            <span class="widget-info">بازگشت به مدرسه</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-circled.png"/>
+                            <span class="widget-info">بازگشت به مدرسه</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-circled.png"/>
+                            <span class="widget-info">بازگشت به مدرسه</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <img class="widget-img" src="./images/widget-circled.png"/><!--  cssfile is widget css -->
+                            <span class="widget-info">بازگشت به مدرسه</span>
+                        </a>
+                    </div><!--  cssfile is widget css -->
+                    <div class="swiper-slide widget-slide">
+                        <a >
+                            <span class="more">
+                                <span class="dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                </span>
+                                </span>
+                            <span>بیشتر</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="container-lg">
+              <div id="suggestion" class="col-xs-12 d-flex flex-column">
+             <div class="sugg-header d-flex space-between flex-row d-lg-none ">
+                 <div class="sugg-info d-flex flex-row space-between align-center">
+                     <div class="sugg-images d-flex flex-row align-center">
+                            <img class="w-full inline-block " src="./images/amazing.svg"/>
+                            <img class="w-full inline-block " src="./images/incredible-word.svg"/>
+                        </div><!--sug images-->
+                               <div id="countdown1" class="countdown d-lg-none">
+                                 <div class="time hours" >00</div>:
+                                 <div class="time minutes">00</div>:
+                                 <div class="time seconds">00</div>
+                            </div> <!--end countdown -->
+                </div><!--end sugg-info-->
+                        <div class="sugg-see">
+              <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                         </div><!--end sugg-see -->
+                        </div><!--end sug header -->
+                <div id="swiper-suggestion" class="swiper swiper-suggestion">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide  flex-column align-center justify-center sugg-slide d-none d-lg-flex">
+                            <img class="w-full d-none d-lg-block" src="./images/Amazings.svg"/>
+                            <div id="countdown2" class="countdown">
+                                 <div class="time hours" >00</div>:
+                                 <div class="time minutes">00</div>:
+                                 <div class="time seconds">00</div>
+                            </div><!--end countdown -->
+                            <img class="w-full d-none d-lg-block" src="./images/amazing.svg"/>
+                 <div class="sugg-see">
+              <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                 </div><!--end sugg-see -->
+                        </div>
+                        <div class="swiper-slide d-flex flex-column align-center space-between sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center space-between  sugg-slide">
+                            <span class="sugg-disscount">20%</span>
+                            <img class="sugg-slide-img" src="./images/incredible.webp"/>
+                            <span class="sugg-description">گوشی موبایل تی سی ال se50 دوسی.....</span>
+                            <div class="sugg-price d-flex flex-column align-center">
+                            <span class="bold" >5.159.000تومان</span>
+                            <span class="second-select-item">7.000.000تومان</span>
+                            </div><!--end sugg-price-->
+                        </div><!--end swiper-slide-->
+                        <div class="swiper-slide d-flex flex-column align-center justify-center  sugg-slide">
+                            <div class="d-flex flex-column align-center space-between more-sugg">
+                                <span class="more-icon d-flex align-center justify-center"><i class="fa fa-arrow-left"></i></span>
+                                <span>مشاهده بیشتر</span>
+                            </div>
+                        </div><!--end swiper-slide-->
+                    </div><!--end swiper-wrapper-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div><!-- end swiper-suggestion-->
+                </div><!--end suggestion-->
+
+                <div class="px-2">
+                                    <div class="col-xs-12 shegeft rounded ">
+                <div class="shegeft-info">
+                    <img src="./images/shegeft.webp" />
+                    <img src="./images/fresh-incredible-offer.svg"/>
+                    <div class="shegeft-discount">
+                    تا 50% تخفیف
+                </div>
+                </div><!--  cssfile is widget css -->
+                
+                <div class="sheg-products">
+                    <div class="shegeft-images">
+                        <a  class="sheg-product d-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a>
+                          <a  class="sheg-product d-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a><!--  cssfile is widget css -->
+                          <a  class="sheg-product d-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a>
+                        <a  class="sheg-product d-none d-lg-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a>
+                        <a  class="sheg-product d-none d-xl-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a>
+                        <a  class="sheg-product d-none d-xl-flex">
+                            <img src="./images/shegeft-product.webp"/>
+                            <span>50%</span>
+                        </a>
+                    </div>
+                    <a class="more-product" ><span>بیش از 30 کالا</span><i class="fa fa-arrow-left"></i></a>
+                </div><!--  cssfile is widget css -->
+            </div> <!-- end shegeft -->
+
+                </div>
+            </div><!--container lg-->
+            <div class="container-lg">
+                            <div class="row diss-advertises w-full">
+                <a  class="col-xs-6 col-md-3">
+                    <img class="w-full inline-block rounded" src="./images/diss-adv.webp"/>
+                </a>
+                <a  class="col-xs-6 col-md-3">
+                    <img class="w-full inline-block rounded"  src="./images/diss-adv.webp"/>
+                </a>
+                <a  class="col-xs-6 col-md-3">
+                    <img class="w-full inline-block rounded"   src="./images/diss-adv.webp"/>
+                </a><!--  cssfile is widget css -->
+                <a  class="col-xs-6 col-md-3">
+                    <img class="w-full inline-block rounded"  src="./images/diss-adv.webp"/>
+                </a>
+            </div><!-- end row diss advertise -->
+            <!-- end cssfile is widget css -->
+            <!--  cssfile is category css -->
+            <div class="categories row px-2 d-lg-none ">
+                <div class="col-xs-12">
+                    <h4 class="text-center ">خرید بر اساس دسته بندی</h4>
+                  <div id="swiperCategory" class="swiper ">
+                   <div class="swiper-wrapper "><!--  cssfile is category css -->
+                       <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                     <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div><!--  cssfile is category css -->
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    </div>
+                                <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                     <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div><!--  cssfile is category css -->
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    </div>
+                                    <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                     <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    </div>
+                                    <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                     <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    </div>
+                                    <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                     <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div><!--  cssfile is category css -->
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    </div>
+                                    <div class="swiper-slide">
+                    <div class="category">
+                        <a  class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div><!--  cssfile is category css -->
+                    </div><!-- end last swiperslide -->
+                   </div><!-- end swiper-wrapper-->
+                  </div><!--end swiper -->
+                </div><!--end col-xs-12 -->
+            </div><!-- end categories row -->
+            <div class="row">
+                  <h3 class="text-center d-none d-lg-block bold">خرید بر اساس دسته بندی</h3>
+            <div class="d-none d-lg-grid category-desktop">
+                
+
+                <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+                    <div class="category">
+                        <a class="category-item">
+                            <img class="" src="./images/category1.png"/>
+                            <span>کتاب،لوازم تحریر و هنر</span>
+                        </a>
+                    </div>
+                    
+            </div><!-- end desktop category-->
+            </div>
+                <div class="row diss-advertises ">
+                <a  class="col-xs-12 col-md-6">
+                    <img class="w-full inline-block rounded" src="./images/shuiande.webp"/>
+                </a>
+                <a  class="col-xs-12 col-md-6">
+                    <img class="w-full inline-block rounded"  src="./images/shuiande.webp"/>
+                </a>
+            </div><!-- end row diss advertise -->
+
+            
+                <div class="best-brand  ">
+                    <span class="d-flex align-center justify-center"><img class="brand-icon" src="./images/best-img.jpg"/>
+                    <h4>محبوب ترین برندها</h4></span>
+                    <div class="swiper swiper-brand">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a><!--  cssfile is category css -->
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div><!--  cssfile is category css -->
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs2brand.png"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a >
+                                    <img class="brand-img" src="./images/bs1brand.png"/>
+                                </a><!--  cssfile is category css -->
+                            </div>
+                        </div><!-- end swiper wraper-->
+                        <!--swiper buttons-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div><!-- end swiper-->
+                </div><!-- end best-brand row -->
+                 
+                   <div class="row diss-advertises ">
+                <a  class="col-xs-12 col-md-6">
+                    <img class="w-full inline-block rounded" src="./images/shuiande.webp"/>
+                </a>
+                <a  class="col-xs-12 col-md-6">
+                    <img class="w-full inline-block rounded"  src="./images/shuiande.webp"/>
+                </a>
+            </div><!-- end row diss advertise -->
+                 
+                <!-- end  cssfile category css -->
+                <!--  cssfile is products css -->
+                
+                    <div class="row products px-2">
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6 ">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                </div><!--end row products -->
+                
+                <div class="club row"><!--  cssfile is products css -->
+                    <div class="club-logo">
+                        <img class="w-full  inline-block" src="./images/club-logo.svg"/>
+                    </div>
+                    <div class="club-cards">
+                                                <div class="col-xs-4 club-item">
+                            <div class="club-header">
+                                <span class="spinner-icon"><img src="./images/spinnericon.jpg"/></span>
+                                <span>چرخ و بخت</span>
+                            </div>
+                            <div class="club-body">
+                                <img class=" h-full inline-block" src="./images/spinner.webp"/>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 club-item">
+                            <div class="club-header">
+                                <span class="spinner-icon"><img src="./images/spinnericon.jpg"/></span>
+                                <span>چرخ و بخت</span>
+                            </div>
+                            <div class="club-body">
+                                <img class=" h-full inline-block" src="./images/spinner.webp"/>
+                            </div><!--  cssfile is products css -->
+                        </div>
+                        <div class="col-xs-4 club-item">
+                            <div class="club-header">
+                                <span class="spinner-icon"><img src="./images/spinnericon.jpg"/></span>
+                                <span>چرخ و بخت</span>
+                            </div>
+                            <div class="club-body">
+                                <img class=" h-full inline-block" src="./images/spinner.webp"/>
+                            </div>
+                        </div>
+                    </div><!-- end club-cards-->
+                    </div><!-- end club roww -->
+                    
+                        <div class="most-sell row px-2">
+                        <div class="most-header"><!--  cssfile is products css -->
+                            <div class="most-logo">
+                                <span class="most-sell-icon"><img src="./images/mostsell-icon.jpg"/></span>
+                                <span>پرفروش ترین کالاها</span>
+                            </div>
+                            <div class="see-all"><a  class="see-all-link">مشاهده همه</a></div>
+                        </div><!--  cssfile is products css -->
+                        <div class="swiper swiper-most">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div><!--  cssfile is products css -->
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <!--  cssfile is products css -->
+                            </div><!--end swiper wrapper -->
+                             <div class="swiper-button-prev"></div>
+                             <div class="swiper-button-next"></div>
+                        </div><!--end swiper  --><!--  cssfile is products css -->
+                    </div><!--end most-sell row -->
+                    <div class="row products px-2">
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6 ">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                    <div class="product-card col-xs-12 col-md-3">
+                        <div class="product-info">
+                            <h5 class="product-logo">کاور و کیف گوشی</h5>
+                            <span class="your-taste">براساس سلیقه شما</span>
+                        </div>
+                        <div class="productcard-row row">
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a>
+                            <a  class="product-item col-xs-6">
+                                <img class="w-full h-full inline-block product-img" src="./images/products/product1.jpg"/>
+                            </a><!--  cssfile is products css -->
+                        </div><!--end productcard row-->
+                        <a  class="see"><span> مشاهده </span> <i class="fa fa-angle-left"></i></a>
+                    </div><!-- end product card -->
+                </div><!--end row products -->
+                    
+                <!--end products.css file-->
+         
+                    <!--start selected.css file-->
+                <div class="selected-products px-2">
+                    <div class="select-head">
+                        منتخب محصولات تخفیف و حراج<i></i>
+                    </div>
+                    <div class="row selected-products-row">
+                        <a  class="col-xs-6 col-md-2 select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div><!-- selected.css file-->
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div><!-- selected.css file-->
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div><!-- selected.css file-->
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div><!-- selected.css file-->
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div><!-- selected.css file-->
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div><!-- selected.css file-->
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div>
+                        </a><!--end col-xs-6 select-card -->
+                        <a  class="col-xs-6 col-md-2  select-card">
+                            <div class="select-header">
+                                <img class="select-img" src="./images/select.webp"/>
+                            </div>
+                            <div class="select-body">
+                                <div class="first-select-item">
+                                    <span class="disscount-price">20%</span>
+                                    <span class="price">5.159.000تومان</span>
+                                </div>
+                                <div class="second-select-item">7.000.000تومان</div>
+                                <div class="third-select-item"></div>
+                            </div><!-- selected.css file-->
+                        </a><!--end col-xs-6 select-card -->
+                    </div><!-- end selected-products-row -->
+                </div> <!-- end selected-products-->
+                        <div class="most-sell row px-2">
+                        <div class="most-header"><!--  cssfile is products css -->
+                            <div class="most-logo">
+                                <span class="most-sell-icon"><img src="./images/mostsell-icon.jpg"/></span>
+                                <span>پرفروش ترین کالاها</span>
+                            </div>
+                            <div class="see-all"><a  class="see-all-link">مشاهده همه</a></div>
+                        </div><!--  cssfile is products css -->
+                        <div class="swiper swiper-most">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div><!--  cssfile is products css -->
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a><!--  cssfile is products css -->
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                 <div class="swiper-slide">
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                <div class=" most-slide">
+                                    <a >
+                                    <div class="most-img-slide">
+                                        <img class="" src="./images/most-img.webp"/>
+                                    </div>
+                                    <div class="most-info">
+                                        <span class="blue-number">1</span>
+                                        <span class="most-text">خودکار پنتر مدل فوق روان نانو انتی باکتریال کد 105 نوک ابی</span>
+                                    </div>
+                                    </a>
+                                </div><!--end most-slide-->
+                                </div><!-- end swiper-slide -->
+                                <!--  cssfile is products css -->
+                            </div><!--end swiper wrapper -->
+                             <div class="swiper-button-prev"></div>
+                             <div class="swiper-button-next"></div>
+                        </div><!--end swiper  --><!--  cssfile is products css -->
+                    </div><!--end most-sell row -->
+            
+                    <div class="blog px-2"><!-- selected.css file-->
+                        <div class="blog-head">
+                            <h4>خواندنی ها</h4>
+                            <span>
+                        <a  class="see justify-start"><span> مشاهده بیشتر در دیجیکالا مگ </span> <i class="fa fa-angle-left"></i></a></span>
+                        </div>
+                        <div class="blog-row row">
+                            <a  class="col-xs-12 col-md-3 blog-card">
+                                <div class="blog-header">
+                                    <img class="w-full h-full inline-block" src="./images/blog.jpeg"/>
+                                </div>
+                                <div class="blog-body">
+                                <span>تمرینات ورزشی برای افراد مبتلا به سرطان</span>
+                                </div>
+                            </a> <!-- end blog card -->
+                            <a  class="col-xs-12 col-md-3  blog-card">
+                                <div class="blog-header">
+                                    <img class="w-full h-full inline-block" src="./images/blog.jpeg"/>
+                                </div>
+                                <div class="blog-body">
+                                <span>تمرینات ورزشی برای افراد مبتلا به سرطان</span>
+                                </div>
+                            </a> <!-- end blog card -->
+                            <a  class="col-xs-12 col-md-3  blog-card">
+                                <div class="blog-header">
+                                    <img class="w-full h-full inline-block" src="./images/blog.jpeg"/>
+                                </div><!-- selected.css file-->
+                                <div class="blog-body">
+                                <span>تمرینات ورزشی برای افراد مبتلا به سرطان</span>
+                                </div>
+                            </a> <!-- end blog card -->
+                            <a  class="col-xs-12 col-md-3  blog-card">
+                                <div class="blog-header">
+                                    <img class="w-full h-full inline-block" src="./images/blog.jpeg"/>
+                                </div>
+                                <div class="blog-body">
+                                <span>تمرینات ورزشی برای افراد مبتلا به سرطان</span>
+                                </div>
+                            </a> <!-- end blog card -->
+                        </div><!--end blog-row row-->
+                    </div><!-- end blog -->
+         </div><!--end container-->
+                               <!--hr-->
+                               <hr class="d-none d-lg-block">
+                               <!--hr-->
+                    <div class="d-flex align-center justify-center space-lg-between footer-about px-2">
+                        <div class="d-none d-lg-flex flex-column">
+                            <div><img src="./images/dg-icon.svg" class="dg-footer-icon"/></div>
+                            <div class="footer-about-info"> 
+                            <span class="px-2">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span>
+                            <span class="px-2">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span>
+                            <span class="px-2">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span>
+                            </div>
+                        </div>
+                        <div class="to-top-div">
+                    <a href=#  id="myBtn" class="back-to-top px-2 btn btn-lg-light">
+                       بازگشت به بالا <i class="fa fa-angle-up"></i>
+                    </a><!-- end back to top -->
+                        </div>
+                    </div><!--footer about-->
+                    <div class="footer-adv d-none  d-lg-flex space-evenly">
+                                <a class="d-flex px-2 flex-column align-center space-between">
+                                    <img src="./images/footer-adv.svg" class="footer-adv"/>
+                                    <span>امکان تحویل اکسپرس</span>
+                                </a>
+                                <a class="d-flex px-2 flex-column align-center space-between">
+                                    <img src="./images/footer-adv.svg" class="footer-adv"/>
+                                    <span>امکان تحویل اکسپرس</span>
+                                </a>
+                                <a class="d-flex px-2 flex-column align-center space-between">
+                                    <img src="./images/footer-adv.svg" class="footer-adv"/>
+                                    <span>امکان تحویل اکسپرس</span>
+                                </a>
+                                <a class="d-flex px-2 flex-column align-center space-between">
+                                    <img src="./images/footer-adv.svg" class="footer-adv"/>
+                                    <span>امکان تحویل اکسپرس</span>
+                                </a>
+                                <a class="d-flex px-2 flex-column align-center space-between">
+                                    <img src="./images/footer-adv.svg" class="footer-adv"/>
+                                    <span>امکان تحویل اکسپرس</span>
+                                </a>
+                            </div><!--end footer adv-->
+                    <!-- end selected.css file-->
+                    <div class="footer row px-2"><!-- start footer.css file-->
+                        
+                        <div class="col-xs-12 support d-flex space-between footer-item d-lg-none">
+                            <div class="support-info d-flex align-center justify-center ">
+                                <div class="sup-icon d-flex align-center justify-center">
+                                    <img src="./images/support.png" class="footer-icon"/>
+                                </div>
+                                <div class="d-flex flex-column space-between p-2">
+                                    <span class="f-sm">۷ روز هفته، ۲۴ ساعت</span>
+                                    <span>تماس با پشتیبانی</span>
+                                </div>
+                            </div><!-- end support-info -->
+                            <!--footer adv-->
+                            
+                            <div class="support-btn">
+                                <button class="btn btn-light">تماس</button>
+                            </div>
+                        </div><!-- end support -->
+                        <div class="col-xs-12 dg-download d-flex space-between footer-item d-lg-none">
+                            <div class="download-info d-flex align-center justify-center">
+                                <div class="download-icon">
+                                    <img src="./images/dg-icon.webp" class="footer-icon"/>
+                                </div><!--  footer.css file-->
+                                <div class="d-flex flex-column space-between p-2">
+                                    <span class="f-sm">تجربه خرید بهتر</span>
+                                    <span>اپلیکیشن دیجی کالا</span>
+                                </div>
+                            </div>
+                            <div class="download-btn">
+                                <button class="btn btn-dark">دانلود</button>
+                            </div>
+                        </div><!-- end dg-download-->
+                        <div class=" row py-2">
+                            <div class="information col-xs-12 col-md-3  ">
+                            <div id="showInformation" class="show-information  d-flex space-between py-2 py-lg-0">
+                            <div class="information-info">
+                                با دیجی کالا
+                            </div>
+                            <div class="information-btn d-lg-none">
+                                <i class="fa fa-angle-down" id="angleIcon"></i>
+                            </div>
+                            </div><!--end show information-->
+                                <ul id="informationList" class="information-list"><!--  footer.css file-->
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                </ul><!--end information-list-->
+                        </div><!-- end information-->
+                        <div class="information d-none d-lg-block col-xs-12 col-md-3 ">
+                            <div id="showInformation" class="show-information d-flex space-between">
+                            <div class="information-info">
+                                با دیجی کالا
+                            </div>
+                            <div class="information-btn d-lg-none">
+                                <i class="fa fa-angle-down" id="angleIcon"></i>
+                            </div>
+                            </div><!--end show information-->
+                                <ul id="informationList" class="information-list"><!--  footer.css file-->
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                </ul><!--end information-list-->
+                        </div><!-- end information-->
+                        <div class="information d-none d-lg-block col-xs-12 col-md-3 ">
+                            <div id="showInformation" class="show-information d-flex space-between">
+                            <div class="information-info">
+                                با دیجی کالا
+                            </div>
+                            <div class="information-btn d-lg-none">
+                                <i class="fa fa-angle-down" id="angleIcon"></i>
+                            </div>
+                            </div><!--end show information-->
+                                <ul id="informationList" class="information-list"><!--  footer.css file-->
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                    <li><a >اتاق خبر دیجی کالا</a></li>
+                                </ul><!--end information-list-->
+                        </div><!-- end information-->
+                        <div class="d-none d-lg-flex flex-column col-md-3 social-footer">
+                            <div class="social-info">باما همراه باشید!</div>
+                            <div class="social-icon d-flex">
+                                <img src="./images/instagram.jpg" class="social-img"/>
+                                <img src="./images/instagram.jpg" class="social-img"/>
+                                <img src="./images/instagram.jpg" class="social-img"/>
+                                <img src="./images/instagram.jpg" class="social-img"/>
+                            </div>
+                            <div class="social-info">ایمیل خود را ثبت کنید</div>
+                            <div class="social-email d-flex align-center">
+                                <input id="emailInput" type="email" placeholder="ایمیل">
+                                <button id="emailBtn" type="submit" disabled class="btn">ثبت</button>
+                            </div>
+                        </div>
+                        </div><!--end row for information-->
+                        <div class="download row d-flex align-center  px-2 d-none d-lg-flex">
+                            <div class="download-logo d-flex align-center">
+                                <img src="./images/dg-icon.webp"/>
+                                <h4>دانلود اپلیکیشن دیجیکالا</h4>
+                            </div>
+                            <div class="download-apps d-flex align-center mr-auto">
+                                <a href=""><img src="./images/appstore.svg"/></a>
+                                <a href=""><img src="./images/appstore.svg"/></a>
+                                <a href=""><img src="./images/appstore.svg"/></a>
+                                <a href=""><img class="more-svg" src="./images/More.svg"/></a>
+                            </div>
+                        </div>
+                        <div class="about row  ">
+                            <div class="col-xs-12 about-us-text col-lg-9 ">
+                                <h6>فروشگاه اینترنتی دیجیکالا،بررسی،انتخاب و خرید انلاین</h6>
+<p>
+<span class="showable text-opacity">یک یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمان ی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.
+یکی از مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌ اینترنتی دیگری، این است که کالای خریداری شده چه زمانی به دستشان می‌رسد. دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌ مقصد کالا.</span><span class="need-click">یکی از مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌ اینترنتی دیگری، این است که کالای خریداری شده چه زمانی به دستشان می‌رسد. دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌ مقصد کالا و همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد. هر یک از روش های ارسال دیجی کالا شرایط و ویژگی‌های خاص خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی‌کالا، این فروشگاه اینترنتی در بخشی از وب‌سایت خود راهنمای کاملی از شیوه‌‌های ارسال را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل 8 نوع ارسال کالا به روش‌های زیر است: ارسال امروز، دریافت حضوری، دریافت از گنجه، ارسال توسط فروشنده، ارسال عادی، ارسال کالاهای بزرگ، سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست
+
+کدام محصولات در دیجی‌کالا قابل سفارش هستند؟
+
+تقریبا می‌توان گفت محصولی وجود ندارد که دیجی‌کالا برای مشتریان خود در سراسر کشور فراهم نکرده باشد. شما می‌توانید در تمامی روزهای هفته و تمامی شبانه روز دیجی‌کالا که محصولات دارای تخفیف عالی می‌شوند، سفارش خود را به سادگی ثبت کرده و در روز و محدوده زمانی مناسب خود، درب منزل تحویل بگیرید. بعضی از گروه‌های اصلی و زیر مجموعه‌های پرطرفدار محصولات دیجی‌کالا شامل مواردی می‌شود که در ادامه به معرفی آن‌ها می‌پردازیم که امکان ارسال امروز برای آن ها وجود دارد. 
+
+کالای دیجیتال
+
+انواع گوشی موبایل از برندهای مختلفی مثل آیفون،  گوشی سامسونگ، گوشی نوکیا، گوشی شیائومی، گوشی هواوی، و...، انواع کنسول بازی ps4 و ps5، انواع تبلت‌های پرطرفدار مثل تبلت سامسونگ نوت 10، انواع هندزفری مثل هندزفری بی سیم، تلوزیون از برندهای مختلف مثل تلویزیون سامسونگ، سونی و...، انواع مانیتور، کیس، کیبورد، مودم از برندهای مختلف مثل مودم ایرانسل، آنتن و ... تنها بخشی از محصولاتی هستند که زیر مجموعه کالای دیجیتال در دیجی‌کالا قرار دارند.
+
+خودرو، ابزار و تجهیزات صنعتی
+
+انواع خودروهای ایرانی و خارجی از برندهای مطرحی مثل هوندا، کیا و...، موتور سیکلت از برندهایی مثل کویر موتور و...، لوازم جانبی خودرو مثل سیستم صوتی تصویر، ضبط و...، لوازم یدکی مثل دیسک و صفحه کلاج و... و لوازم مصرفی خودرو مثل کفپوش سانا در این گروه قرار می‌گیرند.
+
+مد و پوشاک
+
+محصولاتی مثل انواع لباس مثل لباس مجلسی زنانه و مردانه، لباس راحتی، لباس ورزشی، اکسسوری، کیف، کفش، عینک آفتابی، لباس زیر، شال و روسری و... جزو مواردی هستند که می‌توانید آن‌ها را از برندهای مطرح ایرانی و خارجی موجود در دیجی کالا مثل آدیداس، نایکی، دبنهامز، آلدو، درسا و... خریداری کنید.
+
+اسباب بازی کودک و نوزاد
+
+در این دسته از کالاهای دیجی‌کالا، انواع لوازم بهداشتی و حمام کودک و نوزاد، انواع پوشاک و کفش، تبلت، اسباب‌بازی، لوازم اتاق خواب کودک، لوازم ایمنی، لوازم شخصی و غذا خوری و ... قرار می‌گیرد تا خرید را برای پدر و مادرها به کاری سریع و آسان تبدیل کند.
+
+کالاهای سوپر مارکتی
+
+هر چیزی از مواد خوراکی که به آن نیاز دارید، در سوپرمارکت دیجی‌کالا پیدا می‌شود، محصولات پرطرفداری مثل کره بادام‌زمینی، عسل، سس، قهوه، زعفران، شکلات، انواع نان و ... از برندهای معتبر و معروفی مثل نستله، نوتلا، استارباکس، مزمز، چی توز و ... همگی در اختیار شما هستند و تا رسیدن به آشپزخانه شما تنها چند کلیک فاصله دارند.
+
+زیبایی و سلامت
+
+انواع لوازم آرایش مثل لاک، رنگ مو، لوازم آرایش لب، چشم، صورت و... همگی در دیجی‌کالا موجود هستند. همچنین محصولات بهداشتی مثل انواع شامپو، کرم ضد آفتاب، ماسک صورت، ضد تعریق، ماسک مو  و...، انواع لوازم شخصی برقی، ست هدیه، بهترین انواع عطر و اسپری، کرم پودر، ریمل و رژلب وانواع زیورآلات طلا و نقره مثل سرویس طلا، سرویس نقره و... به همراه وسایل مراقبت شخصی طبی در گروه زیبایی و سلامت دیجی‌کالا قرار می‌گیرد. در این بخش برندهای مطرحی مثل اسنس، پنبه ریز، سینره و... حضور دارند.
+
+خانه و آشپزخانه
+
+یکی از متنوع‌ترین بخش‌های دیجی‌کالا، بخش لوازم خانه و آشپزخانه است که از محصولاتی مثل صندلی گیمینگ در بخش صندلی‌ها گرفته تا انواع مبل راحتی، انواع آبگرمکن مثل آبگرمکن بوتان، لباسشویی‌های متنوع مثل انواع لباسشویی اسنوا، شیرآلات مختلف مثل شیرآلات قهرمان و...، ظروف و همچنین لوازم برقی آشپزخانه مثل توستر و... را شامل می‌شود و امکان خریدی عالی را برای مشتریان فراهم کرده است. در بخش لوازم خانگی دیجی‌کالا، برندهای معتبری مثل تفال، اخوان، فیلیپس، ال جی، اسنوا، جی پلاس و... حضور دارند.
+
+کتاب، لوازم تحریر و هنر
+
+بخش هنر، کتاب، رمان و لوازم تحریر دیجی‌کالا نیز یکی از متنوع‌ترین بخش‌های این فروشگاه اینترنتی است. انواع کتاب و مجله، کتاب زبان، بازی، لوازم تحریر با طرح‌های مختلف مانند دختر کفشدوزکی، سازهایی مثل پیانو، سنتور، هنگ درام  و... با بهترین قیمت‌ها و از بهترین برندها در دسترس شما قرار دارند.
+
+ورزش و سفر
+
+هر نوع وسیله و لباس ورزشی که فکرش را کنید، انواع وسایل کمپینگ و کوهنوردی، ساک و قمقمه ورزشی و وسایل سفر اربعین و... در این بخش قرار می‌گیرند. همچنین شما می‌توانید وسایل مد نظر خود را بر اساس نوع ورزش (آبی، هوازی، بدنسازی و...) در دسته‌بندی‌های دیجی‌کالا پیدا کنید.
+
+محصولات بومی و محلی
+
+و در آخر دیجی‌کالا از طریق به فروش رساندن محصولات بومی و سنتی متفاوتی مثل انواع خوراکی، گلیم و گبه، ابزار و ... تلاش کرده تا بین هنر ایرانی و متقاضیان آن کوتاه‌ترین راه را پیدا کند. در این بخش شما می‌توانید انواع محصولات از جمله ظروف زیبای مخصوص به سفره هفت‌سین  و پذیرایی از مهمانان در روزهای نوروز، انواع آیینه و شمعدان و هر آن چیزی را که برای خلق زیبایی در روزهای بهاری به آن نیاز دارید، با قیمت مناسب و تنوع بسیار بالا انتخاب کنید. همچنین در صفحه برچسب ها، امکان مشاهده و خرید انواع محصولات با طرح های بومی وجود دارد.  دیجی‌کالا همچنین برای اینکه حال و هوای عید را به اعضای خود هدیه کند، تقویم ۱۴۰۱، انواع ایده عکس پروفایل عید نوروز، آهنگ‌های عید نوروز و موزیک‌های شاد بهاری، وسایل مربوط به خانه‌تکانیی و انواع لباس های عید  را برای شما فراهم کرده است تا بتوانید در کنار خرید خود، از این حال و هوای تازه نهایت لذت را ببرید.</span>
+                                </p>
+                            </div><!-- end about-us-text-->
+                            <div class="d-none col-lg-3 etminan-icons d-lg-flex align-center justify-center">
+                                <a class="nemad-item p-2 " href=""><img class="nemad-img" src="./images/nemad.webp"/></a>
+                                <a class="nemad-item p-2 " href=""><img class="nemad-img" src="./images/nemad.webp"/></a>
+                                <a class="nemad-item p-2 " href=""><img class="nemad-img" src="./images/nemad.webp"/></a>
+                            </div><!--end etminan icons-->
+                              
+                        </div><!-- end about row-->
+                        <div class="show-unshow" onclick="toggleContent()">
+                                    <span class="show-text">مشاهده بیشتر</span><i class="fa fa-angle-left"></i>
+                                </div>
+                    </div><!-- end footer row -->
+                    <hr class="d-none d-lg-block">
+                    <div class=" d-none w-full d-lg-flex dg-services flex-column">
+                        <div class=" d-flex">
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                        </div>
+                        <div class=" d-flex">
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                            <a class="service-item d-flex align-center justify-center" href=""><img src="./images/dg-footer.svg"/></a>
+                        </div>
+                    </div>
+            <!--suppermarket button-->
+            <div class="marketbtn-wrapper d-flex justify-center  justify-lg-end">
+   <button id="marketBtn" class="market-btn ">
+    <i class="fas fa-shopping-bag"></i>
+    <span class="primary-text ">سوپر مارکت</span>
+    <span class="secondary-text">تنوع بالا، پرتخفیف</span>
+</button>
+            </div><!--end marketbtn wrapper-->
+             <div class="d-flex justify-center align-center market-wrapper">
+                 <div id="markets" class="markets ">
+                 <div class="market-header d-flex space-between align-center">    
+                     <div><span>یکی از سوپر مارکت های زیر را انتخاب کنید</span>
+                     <h6>فقط در شهرهای تهران و کرج</h6></div>
+                     <div>
+                         <button id="close" class="d-none d-lg-block"></button>
+                     </div>
+                 </div>
+                 
+                 <div class="market-body d-flex">
+                     <div class="market-card">
+                         <div class="market-info">
+                             <div class="m-info-head">
+                             <span >پرتخفیف و متنوع</span><i class="fa fa-angle-left"></i>
+                             </div>
+                             <div class="m-info-text">
+                                 <i class="fa fa-truck"></i>
+                                 <span>ارسال امروز</span>
+                             </div>
+                              </div> <!--market info-->
+                             <div class="market-img">
+                                 <img src="./images/market1.webp"/>
+                             </div>
+                     </div><!--market card-->
+                      <div class="market-card">
+                         <div class="market-info">
+                             <div class="m-info-head">
+                             <span >پرتخفیف و متنوع</span><i class="fa fa-angle-left"></i>
+                             </div>
+                             <div class="m-info-text">
+                                 <i class="fa fa-truck"></i>
+                                 <span>ارسال امروز</span>
+                             </div>
+                              </div> <!--market info-->
+                             <div class="market-img">
+                                 <img src="./images/market1.webp"/>
+                             </div>
+                     </div><!--market card-->
+                 </div><!--market body -->
+                 <!--home -->
+                    </div><!--markets-->
+             </div><!-- end market wrapper-->
+                                  
+    </div><!--end home-->
+    
+    <!-- jQuery -->
+    <script src="./bootstrap/jquery-2.1.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <!-- swipper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/categories.js"></script>    
+    <script src="./js/videoplayer.js"></script>
+
+</body>
+</html>

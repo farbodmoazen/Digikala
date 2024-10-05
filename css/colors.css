@@ -1,0 +1,22 @@
+:root {
+    --blue-color:#008eb2;
+    --secondary-color:#e6e6e6;
+    --grey-color:#f0f0f1;
+    --black-color:#000;
+    --white-color:#fff;
+    --blue-link-color:#19bfd3;
+    --light-green-color:#dbf3e6;
+    --green-color:#029a49;
+    --input-color:#81858b;
+    --pink-color:#fdecf5;
+    --purple-color:#e03e97;
+    --blue-club-color:#1693c0;
+    --last-price:#a1a3a8;
+    --red-color:#d32f2f;
+    --dot-color:#a1a3a8;
+    --desktop-item-color:rgba(59, 59, 59, 0.5);
+    --btn-red-color:#ef4056;
+    --navy-blue-color:#3c4b6d;
+    --scrollbar-color:rgb(192, 192, 192);
+    --li-color:#424750;
+}

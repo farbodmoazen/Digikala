@@ -1,0 +1,304 @@
+@import url'./css/colors.css';
+.main-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000000; 
+  padding: 0;
+}
+    /*its for a distance from top for main header,!!!!dont change it!!*/
+    #home,#Category{
+    position: relative;
+    top: 65px;
+    right: 0px
+}
+.adv.sticky {
+  top: 0; /* Ensure it sticks to the top */
+}
+
+
+/*start advertiesement*/
+.adv{
+    width:100%;
+    object-fit:cover;
+    height:35px;
+}
+
+/*end advertiesement*/
+
+/*start search*/
+input[type="search"]{
+    width:100%;
+    border:none;
+    background-color:var(--grey-color);
+    border-radius:50px;
+    height:40px;
+    color:var(--input-color);
+    outline:none;
+    box-shadow:none;
+}
+.search-wrapper{
+    position:relative;
+    color:var(--input-color);
+
+}
+.search-wrapper .search-i {
+    position:absolute;
+    top:10px;
+    right:20px;
+    color:var(--input-color);
+    font-size:1.4em;
+}
+.search-wrapper .search-info{
+    position:absolute;
+    top:-18px;
+    right:40px;
+    color:var(--input-color);
+    display:flex;
+    align-items:center;
+    padding-right:10px;
+}
+.search-wrapper img{
+    height:70px;
+    width: 70px;
+    padding-right:5px;
+}
+.search{
+    padding:1.2rem 0;
+    top:0;
+    background-color:var(--white-color);
+}
+/*end search*/
+/*start story*/
+.story{
+    width:84px;
+    height:136px;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin:0.8rem 0.7rem ;
+}
+.story:hover{
+    cursor:pointer;
+}
+.img-story{
+    border:3px solid transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: rgb(138,76,131);
+    background: linear-gradient(90deg, rgba(138,76,131,1) 0%, rgba(193,6,255,1) 100%);
+    border-radius:50%;
+    width: 78px;
+    height:78px;
+}
+.img-story img{
+    width:74px;
+    height:74px;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid var(--white-color);
+}
+.hour{
+    background-color:var(--pink-color);
+    color:var(--purple-color);
+    width:36px;
+    height:24px;
+    padding:0 6px;
+    font-size:10px;
+   display:flex;
+   align-items:center;
+   border-radius:8px;
+   z-index:5;
+   position:absolute;
+   bottom:45px;
+   font-weight:bold;
+}
+.story-desc{
+    font-size:10px;
+    position:absolute;
+    bottom:13px;
+    font-weight:400;
+}
+.swiper-slide.story{
+    width:84px !important;
+}
+ /*end story*/
+ /*//////////////*/
+/*responsive*/
+@media screen and (min-width:768px){
+    
+    #story-swiper  .swiper-button-next {
+        right:auto;
+    }
+    #story-swiper .swiper-button-prev {
+    right: 5px;
+}
+}
+@media screen and (min-width: 1024px) {
+    .story-desc{
+    font-weight:600;
+}
+    /*its for a distance from top for main header,!!!!dont change it!!*/
+    #home{
+    position: relative;
+    top: 140px;
+    right: 0px
+}
+    .story{
+        margin-top:7rem;
+    }
+    .search.sticky {
+  top: 70px; /* Offset by the height of the .adv element */
+}
+    #story-swiper{
+        max-width:1336px;
+    }
+    .adv{
+        height:70px;
+    }
+    .menu-mobile{:7rem
+        display:none;
+    }
+  .swiper-slide.story{
+      margin-left:24px;
+  }
+  .desktop-menu {
+    display:flex;
+    position: fixed;
+    top: 144px;
+    right:0;
+    width: 100%;
+    background-color: var(--white-color);
+    transition: transform 0.3s ease; /* Smooth animation */
+    z-index:100000;
+}
+
+  .search{
+      width:100%;
+  }
+  .desktop-dg-icon{
+      width:100%;
+      height:30px;
+  }
+  .search-wrapper{
+      padding-right:10px;
+  }
+.search-wrapper .search-i {
+     position:absolute;
+    right:65px;
+    top:15px;
+    color:var(input-color);
+    font-size:1.4em;
+}
+.search-wrapper .search-info{
+    position:absolute;
+    right:85px;
+    top:15px;
+    color:var(--input-color);
+    display:flex;
+    align-items:center;
+    padding-right:10px;
+}
+input[type="search"]{
+    border-radius:10px;
+    height:50px;
+    width:650px;
+    margin-left:auto;
+}
+.search{
+    display:flex;
+    align-items:center;
+}
+.shopping-cart{
+    border-right:1px solid var(--secondary-color);
+    padding-right:5px;
+}
+.shopping-cart:hover{
+    cursor:pointer;
+}
+.shopping-cart img{
+width:38px;
+height:30px;
+}
+
+.btn-sign-in{
+    padding:0;
+    padding-left:15px;
+    align-items:center;
+    justify-content:flex-end;
+}
+.desktop-item {
+    color: var(--desktop-item-color);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    flex-flow: row nowrap;
+    position: relative;
+}
+/*hover border bottom*/
+.desktop-item {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.desktop-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--red-color); /* Assumes --red-color is defined in your CSS variables */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.desktop-item.hover-from-left::before {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+.desktop-item.hover-from-right::before {
+    transform-origin: right;
+    transform: scaleX(1);
+}
+/*end hover border bottom desktop*/
+.desktop-menu{
+    width:100%;
+    background-color:var(--white-color);
+    box-shadow: 0px 10px 10px -15px var(--black-color);
+    margin-bottom:12px;
+    height:50px;
+  }
+.desktop-item span{
+    padding: 0 6px;
+}
+.dsk-active{
+    color:var(--black-color);
+}
+.desktop-item i{
+    font-size:10px;
+}
+.dsk-active i{
+    font-size:16px;
+}
+#openCategory:hover{
+    cursor:pointer;
+}
+.img-story{
+    width: 84px;
+    height:84px;
+}
+.img-story img{
+    width: 80px;
+    height:80px;
+}
+}
